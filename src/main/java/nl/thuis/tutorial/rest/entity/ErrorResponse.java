@@ -2,15 +2,15 @@ package nl.thuis.tutorial.rest.entity;
 
 import java.util.Date;
 
-public class StudentErrorResponse {
+public class ErrorResponse {
 	
 	private int status;
 	private String message;
 	private Date timeStamp;
 	
-	public StudentErrorResponse() {}
+	public ErrorResponse() {}
 	
-	public StudentErrorResponse(int status, String message, Date timeStamp) {
+	public ErrorResponse(int status, String message, Date timeStamp) {
 		super();
 		this.status = status;
 		this.message = message;

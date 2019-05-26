@@ -1,6 +1,5 @@
 package nl.thuis.tutorial.rest.entity;
 
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

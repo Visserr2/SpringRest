@@ -24,7 +24,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan("nl.thuis.tutorial.rest")
+@ComponentScan({"nl.thuis.tutorial.rest"})
 @PropertySource({ "classpath:db.properties" })
 public class SpringRestConfig implements WebMvcConfigurer {
 
